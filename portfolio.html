@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="portfolio.css">
+  <script type="text/javascript" src="portfolio.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Srishti</title>
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo2.png" alt="" class="logo">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#portfolio">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Full Stack Web Develper
+          <br>(Python/Django)
+        </p>
+        <h1>Hi I am <span>Srishti</span> <br>
+          from India!
+
+        </h1>
+      </div>
+    </div>
+
+  </div>
+  <!-- ABOUT -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="srish.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a programmer ,a budding electronics and communication engineer and an aspiring AI-Ml engineer
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span> Python/Django Development<br> </span> Web App Development</li>
+              <li><span>Programming Languages with Dsa<br></span>(C,C++,Java,Python) </li>
+              <li><span>Frontend Development <br> </span> (Html, CSS, bootstrap, JavaScript, Tailwind Css, React
+                js,Ajax)</li>
+              <li><span> DBMS<br> </span>(SQL,MYSQL,POSTGRE-SQl)</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>TecCrown Softwares,Mumbai, India <br> </span> Web-developer intern</li>
+              <li><span>Bharat Intern<br> </span>ML,Intern </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>B.TECH in ECE (AI-ML as specialisation) 8.8 CGPA<br> </span> Deenbandhu Chhotu Ram University of
+                science
+                And Technology, Murthal
+                ,Haryana</li>
+              <li><span>XII CBSE (96%)<br> </span>DAVMPS ,Sonipat Haryana </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio -->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">
+        My Work
+      </h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="grocery.jpg" alt="">
+          <div class="layer">
+            <h3>Food Truck</h3>
+            <p>A full stack food ordering website using python django one can order food through it
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="bank.jpg" alt="">
+          <div class="layer">
+            <h3>Banking System(OOPs)</h3>
+            <p>Created a banking system using Object oriented programming in C++
+
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="url.jpeg" alt="">
+          <div class="layer">
+            <h3>Url Shortener</h3>
+            <p>A full stack website using python django which shortens the urls
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="work-list" id="more">
+        <div class="work">
+          <img src="rock.jpg" alt="">
+          <div class="layer">
+            <h3>Rock Vs Mine</h3>
+            <p>A Machine Learning Model that predicts whether the particle is a Rock or a mine in sea using Linear
+              regression or Supervised Learning
+            </p>
+            <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="libw.jpg" alt="">
+          <div class="layer">
+            <h3>Library Management System</h3>
+            <p>A full stack library management system used in Schools made in python django html css bootstrap js ajax
+
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="snake.jpg" alt="">
+          <div class="layer">
+            <h3>Snake Game</h3>
+            <p>Recreated the snake game ,in which the snake would eat the fruit and grow in size .it would die if it
+              would hit
+              the boundary or its tail
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="btn" onclick="onclick('more')">See More</a>
+  <!-- cONTACT Form -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><a href="mailto: iamsrish03@gmail.com"><span class="fa-solid fa-envelope"></span></a>iamsrish03@gmail.com
+          </p>
+          <p><a href=""><i class="fa-solid fa-phone"></i></a> +91-9416493674</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/srishti-madaan-6889a2202/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          </div>
+          <a href="https://docs.google.com/document/d/1Ih9kNnsxmFdlglwVfgABE73awX5Qb94jYU-mC-4ykaY/edit?usp=sharing"
+            class="btn btn2" download="">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form action="" name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your E-mail" required>
+            <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Srishti Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+</body>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzrmbAis0Qa46TssNGTF8KZy-8yLfZHB-z7AXg4TlQ_PWVI_5N4YoigbadQvOusvqEyHg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function () {
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+
+</html>
